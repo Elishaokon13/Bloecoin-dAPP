@@ -287,8 +287,8 @@ contract TokenA is StandardToken, Ownable{
     * @dev assign totalSupply to account creating this contract
     */
     constructor() public {
-        symbol = "TKA";
-        name = "TokenA";
+        symbol = "BCT";
+        name = "BloCoin Token";
         decimals = 5;
         totalSupply = 1000000*10**uint(decimals);
 
